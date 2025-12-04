@@ -1,0 +1,64 @@
+/* General Styling */
+body {
+	font-family: Arial, sans-serif;
+	background: #9fecbb;
+	color: #333;
+	margin: 0;
+}
+
+.navbar-brand {
+	font-weight: 600;
+}
+
+/* Responsive background colors */
+@media screen and (max-width: 600px) {
+	body {
+		background: #e0e0fb;
+	}
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+	body {
+		background: #efdcdc;
+	}
+}
+
+@media screen and (min-width: 1025px) {
+	body {
+		background: #efefed;
+	}
+}
+
+/* Form Styling */
+form {
+	background: #cc3fe1;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+/* Button hover */
+button:hover {
+	opacity: 1.0;
+	transform: scale(1.05);
+	transition: 0.2s;
+}
+
+/* Sass-like variables concept */
+:root {
+	--primary-color: #4a90e2;
+	--text-color: #333;
+}
+
+h1 {
+	color: var(--primary-color);
+}
+
+h2 {
+	color: #323232;
+	font-size: 22px;
+}
+
+
+.form-label {
+	color: white;
+}
